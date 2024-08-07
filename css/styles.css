@@ -229,6 +229,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+width: calc((100% - 72px) / 4); 
 }
 
 .foto{
@@ -241,9 +242,6 @@ height: 260px;
 
 }
 
-.background-mark{
-    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url("path_to_image");
-}
 .team-name-item{
 font-weight: 500;
 font-size: 20px;
@@ -299,6 +297,7 @@ align-items: center;
 .portfolio-text{
     border: 1px solid #e7e9fc;
     padding: 32px 16px
+    border-top: none;
 }
 
 .portfolio-name-item{
