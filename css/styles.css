@@ -168,7 +168,6 @@ border: none;
 .goal-list{
 gap: 24px;
 display: flex;
-margin: 120px 0;
 }
 
 .goal-list-item{
@@ -225,10 +224,6 @@ background-color: #FFF;
 border-radius: 0 0 4px 4px;
 width: 257px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
 width: calc((100% - 72px) / 4); 
 }
 
@@ -251,9 +246,6 @@ color: #2e2f42;
 align-items: center;
 text-align: center;
 justify-content: center;
-padding-top: 32px;
-padding-left: 12.7px;
-padding-right: 12.7px;
 margin-bottom: 8px;
 }
 
@@ -264,8 +256,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: center;
-padding-top: 8px;
-margin-bottom: 32px;
 align-items: center;
 }
 
@@ -290,7 +280,6 @@ align-items: center;
    display: flex;
    flex-wrap: wrap;
    gap: 24px;
-   margin-bottom: 48px;
    row-gap: 48px;
 }
 
@@ -303,8 +292,20 @@ align-items: center;
 
 .portfolio-name-item{
     margin-bottom: 8px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
+.portfolio-position-item{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 .page-footer{
 background-color: #2e2f42;
 padding: 100px 0;
